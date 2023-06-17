@@ -43,7 +43,7 @@ Docker 版本相当于稳定版，latest Docker 总是与 latest release version
 
 ```
 # 不缓存，支持流式输出
-proxy_cache off;  # 关闭缓存
+proxy_cache off;  # 关闭缓存。
 proxy_buffering off;  # 关闭代理缓冲
 chunked_transfer_encoding on;  # 开启分块传输编码
 tcp_nopush on;  # 开启TCP NOPUSH选项，禁止Nagle算法
